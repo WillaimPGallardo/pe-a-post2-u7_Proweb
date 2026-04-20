@@ -1,22 +1,19 @@
-# 🔗 API REST Productos - Spring Boot
-
-## 📖 Descripción
+API REST Productos - Spring Boot
+Descripción
 
 Aplicación desarrollada con **Spring Boot** que implementa una **API REST CRUD** para la gestión de productos.
 La API utiliza `@RestController` y `ResponseEntity` para manejar solicitudes HTTP y devolver respuestas en formato **JSON** con los códigos de estado correctos.
 
 ---
 
-## ⚙️ Tecnologías
+Tecnologías
 
 * Java 17
 * Spring Boot 3
 * Spring Web
 * Maven
 
----
-
-## 🏗️ Estructura
+ Estructura
 
 ```text
 apiproductos/
@@ -28,7 +25,7 @@ apiproductos/
 
 ---
 
-## 🚀 Ejecución
+Ejecución
 
 ```bash
 mvn clean install
@@ -43,7 +40,7 @@ http://localhost:8080/api/productos
 
 ---
 
-## 🧪 Endpoints
+Endpoints
 
 | Método | URL                 | Descripción         | Código      |
 | ------ | ------------------- | ------------------- | ----------- |
@@ -55,7 +52,7 @@ http://localhost:8080/api/productos
 
 ---
 
-## 📌 Ejemplo JSON
+ Ejemplo JSON
 
 ```json
 {
@@ -67,7 +64,7 @@ http://localhost:8080/api/productos
 
 ---
 
-## ✔ Validación
+Validación
 
 La API cumple con:
 
@@ -79,7 +76,7 @@ La API cumple con:
 
 ---
 
-## 📸 Pruebas
+ Pruebas
 
 
 Se validó usando Postman:
